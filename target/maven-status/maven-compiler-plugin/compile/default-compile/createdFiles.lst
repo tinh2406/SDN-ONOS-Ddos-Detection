@@ -1,0 +1,5 @@
+org\onos\oneping\OnePing.class
+org\onos\oneping\OnePing$PingPruner.class
+org\onos\oneping\OnePing$PingPacketProcessor.class
+org\onos\oneping\OnePing$InternalFlowListener.class
+org\onos\oneping\OnePing$PingRecord.class
