@@ -48,7 +48,12 @@
 
 
     <dependencies>
-
+        <!-- https://mvnrepository.com/artifact/org.knowhowlab.osgi/sigar -->
+        <dependency>
+            <groupId>org.knowhowlab.osgi</groupId>
+            <artifactId>sigar</artifactId>
+            <version>1.6.5_01</version>
+        </dependency>
         <dependency>
             <groupId>org.onosproject</groupId>
             <artifactId>onos-api</artifactId>

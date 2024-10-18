@@ -10,6 +10,4 @@
 <error line="215" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="231" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
-<file name="/Users/nguyeqoctih/Code/java/SDN-ONOS-Ddos-Detection/src/main/java/org/onos/oneping/package-info.java">
-</file>
 </checkstyle>
