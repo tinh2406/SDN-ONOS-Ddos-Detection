@@ -62,7 +62,7 @@ import static org.onosproject.net.flow.criteria.Criterion.Type.ETH_SRC;
 @Component(immediate = true)
 public class OnePing {
 
-    private static Logger log = LoggerFactory.getLogger(OnePing.class);
+    private static final Logger log = LoggerFactory.getLogger(OnePing.class);
 
     private static final String MSG_PINGED_ONCE =
             "Thank you, Vasili. One ping from {} to {} received by {}";
