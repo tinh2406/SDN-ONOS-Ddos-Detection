@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.10">
 <file name="/Users/nguyeqoctih/Code/java/SDN-ONOS-Ddos-Detection/src/main/java/org/onos/oneping/OnePing.java">
+<error line="81" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="84" column="36" severity="warning" message="Variable &apos;flowObjectiveService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="87" column="31" severity="warning" message="Variable &apos;flowRuleService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="90" column="29" severity="warning" message="Variable &apos;packetService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="173" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="187" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="215" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="231" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/nguyeqoctih/Code/java/SDN-ONOS-Ddos-Detection/src/main/java/org/onos/oneping/package-info.java">
 </file>

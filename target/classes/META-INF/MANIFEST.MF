@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1729265835383
+Bnd-LastModified: 1729267161173
 Build-Jdk: 11.0.25
 Built-By: nguyeqoctih
 Bundle-Description: One-Ping-Only sample application
@@ -12,20 +12,28 @@ Created-By: Apache Maven Bundle Plugin
 Export-Package: org.onos.oneping;version="1.14.0";uses:="org.onosproject
  .core,org.onosproject.net.flow,org.onosproject.net.flowobjective,org.on
  osproject.net.packet"
-Import-Package: com.google.common.collect;version="[22.0,23)",org.onlab.
- packet;version="[2.7,3)",org.onosproject.core;version="[2.7,3)",org.ono
- sproject.event;version="[2.7,3)",org.onosproject.net;version="[2.7,3)",
- org.onosproject.net.flow;version="[2.7,3)",org.onosproject.net.flow.cri
- teria;version="[2.7,3)",org.onosproject.net.flowobjective;version="[2.7
- ,3)",org.onosproject.net.packet;version="[2.7,3)",org.slf4j;version="[1
- .7,2)"
-Require-Capability: osgi.service;filter:="(objectClass=org.onosproject.c
- ore.CoreService)";effective:=active,osgi.service;filter:="(objectClass=
- org.onosproject.net.flow.FlowRuleService)";effective:=active,osgi.servi
- ce;filter:="(objectClass=org.onosproject.net.flowobjective.FlowObjectiv
- eService)";effective:=active,osgi.service;filter:="(objectClass=org.ono
- sproject.net.packet.PacketService)";effective:=active,osgi.extender;fil
- ter:="(&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0
- )))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Import-Package: 
+ com.google.common.collect;version="[22.0,23)",
+ org.onlab.packet;version="[2.0,3)",
+ org.onosproject.core;version="[2.0,3)",
+ org.onosproject.event;version="[2.0,3)",
+ org.onosproject.net;version="[2.0,3)",
+ org.onosproject.net.flow;version="[2.0,3)",
+ org.onosproject.net.flow.criteria;version="[2.0,3)",
+ org.onosproject.net.flowobjective;version="[2.0,3)",
+ org.onosproject.net.packet;version="[2.0,3)",
+ org.slf4j;version="[1.7,2)"
+Require-Capability: 
+ osgi.extender;filter:="(&(osgi.extender=osgi.component)(version>=1.3.0)
+ (!(version>=2.0.0)))",
+ osgi.service;filter:="(objectClass=org.onosproject.core.CoreService)";e
+ ffective:=active,
+ osgi.service;filter:="(objectClass=org.onosproject.net.flow.FlowRuleSer
+ vice)";effective:=active,
+ osgi.service;filter:="(objectClass=org.onosproject.net.flowobjective.Fl
+ owObjectiveService)";effective:=active,
+ osgi.service;filter:="(objectClass=org.onosproject.net.packet.PacketSer
+ vice)";effective:=active,
+ osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/org.onos.oneping.OnePing.xml
-Tool: Bnd-4.1.0.201810181252
+Tool: Bnd-3.5.0.201709291849
